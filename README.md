@@ -7,5 +7,3 @@ Zastosowane technologie: MySQL, PHP, HTML, CSS, Bootstrap, JSON, JavaScript, Cha
 Dane w bazie pochodzą z bazy Michała Rogalskiego (bit.ly/covid19-poland) oraz uniwersytetu Johna Hopkinsa w Baltimore (coronavirus.jhu.edu/map.html).
 
 Aplikacja pobiera dane z bazy MySQL, zapisuje każdy wiersz danej tabeli w postaci obiektu PHP, którego klasą jest nazwa tej tabeli (własnoręcznie wykonane podejście stosowane m.in. w .NET Entity Framework). Następnie dane są konwertowane do tablicy JSON i przekazywane do skryptu JavaScript, gdzie przy pomocy biblioteki Chart.JS generowane są wizualizacje danych. Za wygląd strony i jej responsywność odpowiada biblioteka Bootstrap. 
-
-## Aplikację można obejrzeć na stronie www: http://mikolajskoczek.great-site.net
